@@ -1,0 +1,17 @@
+<view class="me-container">
+  <button class="user-base-info" open-type="getUserInfo" bindgetuserinfo="onGetUserInfo">
+    <image class="avatar" src="{{user.avatar}}" mode="aspectFill"></image>
+    <view class="username">{{user.name}}</view>
+  </button>
+  <view class="user-advance-info">
+    <view class="info-title">详细信息</view>
+    <view class="job-number">
+      <text>工号</text>
+      <view class="input-wrap"><input value="{{user.number}}" confirm-type="done" maxlength="12" bindconfirm="numberConfirm" /><image class="arrow-icon" src="./images/arrow-icon.png" mode="aspectFill"></image></view>
+    </view>
+    <view class="address">
+      <text>座位</text>
+      <view class="input-wrap"><input value="{{user.address}}" confirm-type="done" maxlength="12" bindconfirm="addressConfirm" /><image class="arrow-icon" src="./images/arrow-icon.png" mode="aspectFill"></image></view>
+    </view>
+  </view>
+</view>

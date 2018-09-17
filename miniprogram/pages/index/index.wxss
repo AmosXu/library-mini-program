@@ -1,0 +1,45 @@
+.putaway-button {
+  background-color: #478fca;
+  width: 200rpx;
+  height: 80rpx;
+  color: #FFF;
+  font-size: 28rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6rpx;
+  margin: 20rpx 0 0 520rpx;
+}
+.desc-title {
+  padding: 0 40rpx;
+  margin-top: 30rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.book {
+  position:relative;
+  width:160rpx;
+  margin:20rpx 40rpx;
+}
+.book image {
+  width:156rpx;
+  height: 222rpx;
+  margin-top: 10rpx;
+  box-shadow: 2rpx 2rpx 10rpx #333333;
+
+}
+.book-name {
+  width: 160rpx;
+  text-align: center;
+  font-size: 26rpx;
+  color: #303030;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}

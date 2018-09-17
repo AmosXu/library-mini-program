@@ -1,0 +1,47 @@
+.book-image-wrap {
+  display: flex;
+  padding: 20rpx 40rpx;
+}
+.book-image {
+  width: 178rpx;
+  height: 220rpx;
+  box-shadow: 2rpx 2rpx 10rx #333;
+}
+.book-info-wrap {
+  width: 420rpx;
+  margin-left: 40rpx;
+}
+.title {
+  font-size: 32rpx;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+  color: #666;
+  margin-top: 10rpx;
+}
+.author {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #50a2f0;
+  margin-top: 16rpx;
+}
+.price {
+  font-size: 32rpx;
+  color: #6a7078;
+  margin-top: 16rpx;
+}
+.summary-title {
+  padding: 0 40rpx;
+  margin-top: 30rpx;
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.summary {
+  padding: 0 40rpx;
+  margin-top: 20rpx;
+  font-size: 28rpx;
+  color: #ccc;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  overflow: hidden;
+}

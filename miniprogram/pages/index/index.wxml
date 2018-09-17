@@ -1,0 +1,10 @@
+<view class="bookrack-container">
+  <view class="putaway-button" bindtap="putaway">上架</view>
+  <view class="desc-title">全部图书</view>
+  <view class="book-list">
+    <view wx:for="{{bookList}}" wx:key="index" class="book" bindtap="goDetail" data-id="{{item._id}}">
+      <image src="{{item.image}}" mode="aspectFill"></image>
+      <view class="book-name">{{item.title}}</view>
+    </view>
+  </view>
+</view>

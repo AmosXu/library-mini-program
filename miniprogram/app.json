@@ -1,0 +1,31 @@
+{
+  "cloud": true,
+  "pages": [
+    "pages/me/index",
+    "pages/index/index",
+    "pages/bookDetail/index"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "有梦书架",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#F3F3F3"
+  },
+  "tabBar": {
+    "color": "#BBB",
+    "selectedColor": "#000",
+    "backgroundColor": "#fff",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "书架",
+      "iconPath": "./images/tabBar-list02.png",
+      "selectedIconPath":"./images/tabBar-select-list02.png"
+    }, {
+      "pagePath": "pages/me/index",
+      "text": "我的",
+      "iconPath": "./images/tabBar-list04.png",
+      "selectedIconPath": "./images/tabBar-select-list04.png"
+    }]
+  }
+}

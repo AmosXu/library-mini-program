@@ -1,0 +1,55 @@
+page {
+  background-color: #F5F5F5;
+}
+.user-base-info {
+  background: #fff;
+  height: 252rpx;
+  text-align: center;
+  padding: 26rpx 0;
+  color: #000;
+}
+.avatar {
+  width: 126rpx;
+  height: 126rpx;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+.username {
+  font-size: 30rpx;
+  margin: 20rpx auto;
+}
+.user-advance-info {
+  margin-top: 40rpx;
+  background-color: #FFF;
+  color: #333;
+}
+.info-title, .job-number, .address {
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 32rpx;
+  padding: 0 32rpx;
+  border-bottom: 2rpx solid #ccc;
+  color: #9a9a9a;
+}
+.info-title {
+  font-weight: bold;
+  color: #000;
+}
+.job-number, .address {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow-icon {
+  width: 12rpx;
+  height: 20rpx;
+  margin-left: 16rpx;
+}
+.input-wrap {
+  display: flex;
+  align-items: center;
+}
+.input-wrap input {
+  text-align: right;
+}

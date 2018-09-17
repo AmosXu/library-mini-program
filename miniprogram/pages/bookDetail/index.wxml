@@ -1,0 +1,12 @@
+<view class="book-detail-container">
+  <view class="book-image-wrap">
+    <image class="book-image" src="{{book.image}}" mode="aspectFill"></image>
+    <view class="book-info-wrap">
+      <view class="title">{{book.title}}</view>
+      <view class="author text-overflow">{{book.author}}</view>
+      <view class="price">{{book.price}}</view>
+    </view>
+  </view>
+  <view class="summary-title">简介</view>
+  <view class="summary">{{book.summary}}</view>
+</view>
