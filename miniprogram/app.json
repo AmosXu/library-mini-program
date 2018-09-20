@@ -1,8 +1,8 @@
 {
   "cloud": true,
   "pages": [
-    "pages/me/index",
     "pages/index/index",
+    "pages/me/index",
     "pages/bookDetail/index"
   ],
   "window": {
